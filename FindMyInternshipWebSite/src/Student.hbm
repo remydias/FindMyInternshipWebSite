@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="Model">
+	<class name="Student" table="student">
+		<id
+			column="ID"
+			name="Id"
+			type="integer"
+		>
+			<generator class="vm" />
+		</id>
+		<property
+			column="Email"
+			length="45"
+			name="Email"
+			not-null="false"
+			type="string"
+		 />
+		<property
+			column="Password"
+			length="45"
+			name="Password"
+			not-null="false"
+			type="string"
+		 />
+		<property
+			column="FirstName"
+			length="45"
+			name="FirstName"
+			not-null="false"
+			type="string"
+		 />
+		<property
+			column="LastName"
+			length="45"
+			name="LastName"
+			not-null="false"
+			type="string"
+		 />
+		<property
+			column="School"
+			length="45"
+			name="School"
+			not-null="false"
+			type="string"
+		 />
+	</class>
+</hibernate-mapping>

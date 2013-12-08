@@ -8,5 +8,11 @@
 </head>
 <body>
 <h1>Bienvenue sur le site Find My Insternship</h1>
+<p>
+<A HREF="ConnexionCompany.html"><img src="C:\Users\Rémy Fixe\git\FindMyInternshipWebSite\FindMyInternshipWebSite\WebContent\company_img.jpg" alt="" /></A>
+<p>Entreprise</p>
+<A HREF="ConnexionStudent.html"><img src="C:\Users\Rémy Fixe\git\FindMyInternshipWebSite\FindMyInternshipWebSite\WebContent\student_img.jpg" alt="" /></A>
+<p>Etudiant</p>
+</p>
 </body>
 </html>

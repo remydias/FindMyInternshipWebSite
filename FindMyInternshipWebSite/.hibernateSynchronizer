@@ -1,0 +1,5 @@
+package=Model
+databaseUrl=jdbc:mysql://localhost:3306/online_auction
+driver=com.mysql.jdbc.Driver
+username=root
+ConfigurationFile=FindMyInternshipWebSitesrchibernate.cfg.xml
